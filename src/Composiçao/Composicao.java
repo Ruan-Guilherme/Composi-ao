@@ -12,8 +12,17 @@ package Composiçao;
 public class Composicao {
     
     public static void main(String[] args) {
-        //primeira forma
-        Automovel
+       Automovel carro = new Automovel();
+       Automovel carro2 = new Automovel(1500, "verde");
+       
+
+      carro2.ImprecaoMotor();
+       
+       
+       
+               
+       
+        
     }
     
 }

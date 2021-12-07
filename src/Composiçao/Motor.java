@@ -11,7 +11,7 @@ package Composiçao;
  */
 public class Motor {
     
-    private int potencia;
+     int potencia;
     
     public Motor(){
         potencia = 1000; //Valor padrão.
@@ -22,7 +22,7 @@ public class Motor {
         
     }
     
-    
+   
 
   
     public int getPotencia() {

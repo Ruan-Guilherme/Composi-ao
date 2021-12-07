@@ -11,8 +11,18 @@ package Composiçao;
  */
 public class Direcao {
     
-   private String cor;
+    String cor;
 
+   public Direcao(){
+       cor = "Vermelha";
+   }
+   public Direcao(String cor){
+       this .cor = cor;
+   }
+   
+   void ImprecaoDirecao(){
+       System.out.println("");
+   }
     
     
     
